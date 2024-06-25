@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    /* background-image:url('./images/background.png'); */
+    background-color: #90F1EF;
+    background-size: cover;
+    background-position: center;
+}
+.icons:hover{
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(136,136,136,0.281);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
